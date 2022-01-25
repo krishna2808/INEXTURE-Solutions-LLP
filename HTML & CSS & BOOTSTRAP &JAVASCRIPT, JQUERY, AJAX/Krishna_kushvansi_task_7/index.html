@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/library/bootstrap-3/css/bootstrap.css">
+    <!-- <script src="assets/library/bootstrap-3/js/bootstrap.js"> </script> -->
+  
+    <script src="assets/js/custom.js"></script>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Task - 7 </title>
+</head>
+<body> 
+
+<section class="vh-100" style="background-color: #2779e2;">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-9">
+  
+          <h1 class="text-white mb-4">Registration </h1>
+  
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body">
+  
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">First name</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <input type="text"  id="firstName" class="form-control form-control-lg" />
+                  <br> <p id="firstNameError"></p>
+  
+                </div>
+              </div>
+              <hr class="mx-n3">
+
+              <!----------------------------------Last Name----------------->
+
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Last name</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <input type="text" id="lastName" class="form-control form-control-lg" />
+                  <br> <p id="lastNameError"></p>
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+              <!-----------------------------email-address-->
+  
+              <div class="row align-items-center py-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Email address</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+
+                  <input type="email" id="email" class="form-control form-control-lg" placeholder="example@example.com" />
+                  <br> <p id="emailError"></p>
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+
+              <!----------------------------------Url ------------------------------->
+
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">URL</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <input type="text"  id="url" class="form-control form-control-lg" />
+                  <br> <p id="urlError"></p>
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+              <!-- -------------------password ---------------------------->
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Password</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <input type="text"  id="password" class="form-control form-control-lg" />
+                  <br> <p id="passwordError"></p>
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+
+
+               <!-- -------------------Conf-password ---------------------------->
+               <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Conforme Password</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <input type="text"  id="conformPassword" class="form-control form-control-lg" />
+                  <br> <p id="conformPasswordError"></p>
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+
+              <!----------------------------Gender ------------------>
+
+
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Gender</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <!-- <input type="text" class="form-control form-control-lg" /> -->
+                  <label for="">Gender</label><br>
+                  <input type="radio" id="male" name="gender" >
+                  <label for="age1">Male</label><br>
+                  <input type="radio" id="female" name="gender">
+                  <label for="">Female</label><br> 
+                  <br> <p id="genderError"></p>
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+
+
+              <!-----------------------------------Address---------------------------------->
+              <div class="row align-items-center py-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Address</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <textarea class="form-control"  id="address" rows="3" placeholder="Message sent to the employer"></textarea>
+                  <br> <p id="addressError"></p>
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+
+              <!----------------------------------Hobby--------------------------------->
+
+              <div class="row align-items-center py-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Hobby</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <!-- <textarea class="form-control" rows="3" placeholder="Message sent to the employer"></textarea> -->
+                  <label for="">Hobby</label><br>
+                  <input type="radio" id="read" name="Hobby" >
+                  <label for="age1">Reading book</label><br>
+                  <input type="radio" id="cricket" name="Hobby">
+                  <label for="">Cricket</label><br> 
+                  <input type="radio" id="watch" name="Hobby">
+                  <label for="">Watching webseries </label><br> 
+                  <br> <p id="hobbyError"></p>
+                                          
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+
+
+              <!---------------------------------- Phone number-------------- -->
+
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Phone Number</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <input type="text"  id="phoneNumber" class="form-control form-control-lg" />
+                  <br> <p id="phoneNumberError"></p>
+  
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+
+
+              <!----------------------------------Image Upload------------->
+
+              <div class="row align-items-center py-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Upload Image</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+  
+                  <input class="form-control form-control-lg" id="imageUpload" type="file" autocomplete="off" onchange="loadFile(event)" /> <br>
+               
+                  <div class="imgPreview"><img src="" alt="" width="25%" height="25%" id="outputImage"></div>
+                 
+                  <br> <p id="imageError"></p>
+  
+                </div>
+
+
+                
+              </div>
+  
+              <hr class="mx-n3">
+  
+         
+  
+              <hr class="mx-n3">
+     
+  
+              <div class="px-5 py-4">
+                  
+                <button type="submit" class="btn btn-primary btn-lg" onclick="formValidation()">Send application</button>
+              </div>
+              <p id="sucess"></p>
+  
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+     
+    
+
+</body>
+</html>
+
+

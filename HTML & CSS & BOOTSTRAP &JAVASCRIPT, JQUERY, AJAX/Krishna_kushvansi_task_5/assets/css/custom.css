@@ -1,0 +1,49 @@
+.top-margin{
+    margin-top: 30px;
+}
+
+.calculator{
+    border: 4px solid black;
+    height: 300px;
+    background-color: skyblue;
+
+}
+.calculator p, select{
+    margin-left: 20px;
+  
+    margin-top: 5px;
+}
+p{
+    font-size: large;
+    display: inline;
+    
+}
+input{
+    margin-top: 20px;
+}
+label{
+    margin-left:  20px;
+    font-size: large;
+    margin-top: 20px;
+  
+   
+    display: inline;
+}
+
+select, button,p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#first_feild, #second_feild, #third_feild{
+    color: red;
+}
+body{
+    background-color: rosybrown;
+}
+input{
+    font-size: large;
+}
+button{
+    border-radius: 2px;
+    background-color: green;
+}

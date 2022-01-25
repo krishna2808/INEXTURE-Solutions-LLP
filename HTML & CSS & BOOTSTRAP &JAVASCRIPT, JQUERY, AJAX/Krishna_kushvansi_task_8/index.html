@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/library/bootstrap-3/css/bootstrap.css">
+    <!-- <script src="assets/library/bootstrap-3/js/bootstrap.js"> </script> -->
+  
+    <script src="assets/js/custom.js"></script>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Task - 8 </title>
+</head>
+<body> 
+     <div class="container">
+         
+         <div class="row">
+<!-- ----------------------------image slider----------------------------------- -->
+
+             <div class="col-md-12">
+
+                 <div class="image-slider">
+                   
+                  <h1>Image slider </h1>
+                        <hr>
+                             <img src="assets/images/11.jpeg" id="image" alt="image">
+                        
+                        <hr>      
+                   
+                 </div>
+
+
+             </div>
+<!-- -------------------------ajax -------- -->
+
+             <div class="col-md-12">
+
+              <div class="ajax-practical">
+                
+               <h1>Show Data from json and text files </h1>
+                    
+                      <p id="id1"> What is word simulation ?? </p>
+                      <button  onclick="knowMe()" >ANSWER</button> <br>
+
+
+              </div>
+
+
+          </div> <br> 
+
+          <!-- -------------Read  and delete data from json file ---------------------- -->
+          <div class="col-md-12">
+            <button id="show-data" class="btn btn-success">Show Data</button>
+            <button id="hide-data" class="btn btn-info">Hide Data</button>
+            <input type="text" id="delete-username"> 
+            
+           
+            <button id="delete-user-btn" class="btn btn-danger">Delete User</button>  
+        </div>
+        <div class="col-md-6">
+            <p id="id2"></p>
+            <p id="id3"></p>
+            <table id='table'>
+                <tr>
+                    <th>User Name</th>
+                    <th>Email-ID</th>
+                    <th>EXPERIENCE</th>
+                    <th>NUMBER</th>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <p id="id4"></p>
+            <table id='table2'>
+                <tr>
+                    <th>User Name</th>
+                    <th>Email-ID</th>
+                    <th>EXPERIENCE</th>
+                    <th>NUMBER</th>
+                </tr>
+            </table>
+
+        </div>
+                      
+
+                       
+               
+          
+
+         </div>
+     </div>
+
+
+    
+
+</body>
+</html>
+
+

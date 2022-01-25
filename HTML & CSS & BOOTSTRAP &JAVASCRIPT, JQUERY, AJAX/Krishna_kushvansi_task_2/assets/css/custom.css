@@ -1,0 +1,215 @@
+
+body, html{
+    margin:0;
+    padding:0;
+   
+
+  
+}
+
+
+.navigation-bar{
+
+    background-color: black;
+    
+}
+.navigation-bar li{
+
+    list-style-type: none;
+    display: inline;
+    color: blanchedalmond;
+    padding: 10px;
+    font-size:20px;
+
+}
+
+.navigation-bar li:hover{
+    color: green;
+
+}
+
+
+
+.banner-section{
+  /* background-color: darkcyan; */
+  background-image: url("../images/banner.jpeg");
+  height:300px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 100px;
+
+}
+.banner-section span{
+
+    /* text-align: center; */
+    position: relative;
+    top: 45%;
+}
+
+
+
+.heading-section{
+    display: inline;
+}
+h1,h2,h3,h4,h5,h6{
+    display: inline;
+    margin-right: 20px;
+}
+
+
+h1{
+    color: rgb(80, 0, 0)
+}
+h2{
+    color: rgb(120, 0, 0)
+}
+h3{
+    color: rgb(150, 0, 0);
+}
+h4{
+    color: rgb(200, 0, 0);
+}
+h5{
+    color: rgb(255, 0, 0);
+}
+h6{
+    color: rgb(0, 0, 255);
+}
+
+p{
+   text-indent:50px;
+
+
+}
+.bold-part{
+
+    color: crimson;
+
+}
+.vivekananda-title{
+    text-align: center;
+    color: green;
+    font-size: 40px;
+    
+}
+.paragraph-section p {
+    margin-left: 10px;
+}
+.quote{
+    background-color: black;
+    margin-left: 40px;
+    
+    color: white;
+    font-size: 20px;
+}
+
+img{
+    
+    width: 430px;
+    height: 250px;
+}
+.image-section{
+    /* width: 100px; */
+    border: 1px  solid black;
+    display:inline;
+    float: left;
+}
+.image-section:hover{
+    border:greenyellow;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    width: 240px;
+  } 
+.table-section{
+    /* margin-top: 150px; */
+    /* margin-left: 150px;
+    margin-right: 100px; */
+    margin: 50px;
+   width: 75%;
+   border:1px solid black;
+   
+   
+
+}
+th{
+    background-color: green;
+    color: white;
+
+}
+
+tr:hover {background-color: yellow;}
+
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+ .button-section {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 100px;
+   
+  }
+  button:hover{
+    background-color: yellow;
+  }
+  button:visited{
+      background-color: red;
+  }
+  
+.orderAndUnorder-section{
+
+    display: inline;
+
+}
+ul{ 
+    list-style-type: square;
+}
+.video-section{
+    width: 450px;
+    height: 300px;
+}
+
+.label-section{
+    font-size: 15px;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.input-section{
+  width: 90%;
+   margin-left: 30px;
+   margin-right: 30px;
+
+}
+.form-section{
+
+    margin-top: 50px;
+    background-color: palevioletred;
+    font-size: 30px;
+    border: 1px solid black;
+    
+}
+
+.footer-section{
+
+    background-color: green;
+    text-align: center;
+}
+
+

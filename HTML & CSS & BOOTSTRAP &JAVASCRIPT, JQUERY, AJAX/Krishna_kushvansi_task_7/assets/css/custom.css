@@ -1,0 +1,16 @@
+
+
+#urlError, #firstNameError, #lastNameError, #passwordError, #emailError, #imageError, #addressError, #genderError,#hobbyError,#phoneNumberError, #conformPasswordError{
+  color: red;
+  font-size: x-large;
+}
+#sucess{
+  color: green;
+  font-size: x-large;
+  text-align: center;
+}
+
+
+
+
+

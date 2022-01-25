@@ -1,0 +1,85 @@
+
+
+.header-section{
+    background-color: black;
+}
+.header-section ul{
+    list-style-type: none;
+    float: right;
+    
+}
+.header-section h3{
+    float: left;
+}
+.header-section li{
+   display: inline-block;
+   margin-left: 10px;
+   color: blanchedalmond;
+
+}
+.header-section li:hover{
+    color: #6666ff;
+}
+
+
+.main-container{
+    
+    background-color: black;
+
+   
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+/* .gandhi-march-paragraph{
+
+    margin-left: 40px;
+} */
+
+img:hover{
+    border: 3px solid green;
+
+
+}
+
+.rounded-circle{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+ }
+ .grid-image{
+     border-radius: 20px;
+     align-items: center;
+ }
+table:hover{
+    border: 2px solid black;
+
+}
+tr:hover{
+    border:2px dotted black;    
+}
+th{
+    background-color: green;
+    
+}
+.footer-section{
+       background-color: black;
+      
+       
+}
+.paragraph-section{
+    text-align: center;
+}
+
+.footer-section p{
+    color: white;
+    text-align: center;
+    font-size: medium;
+
+}
+.top-margin{
+    margin-top: 30px;
+}

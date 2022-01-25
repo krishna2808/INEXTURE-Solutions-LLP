@@ -1,0 +1,77 @@
+ #image{
+  width: 80%;
+  height: 70%;
+  /* margin-left: 20%; */
+  margin-left: 10%;
+  
+}
+.image-slider{
+  width: 100%;
+  height: 550px;
+  border: 4px solid salmon;
+  background-color: slategray;
+
+}
+
+
+/* table {
+  margin: 0 auto;
+  font-size: large;
+  border: 1px solid black;
+} */
+
+h1 {
+  text-align: center;
+  color: #006600;
+  font-size: xx-large;
+  font-family: 'Gill Sans', 
+      'Gill Sans MT', ' Calibri', 
+      'Trebuchet MS', 'sans-serif';
+}
+
+td {
+  background-color: #E4F5D4;
+  border: 1px solid black;
+}
+
+#table{
+  display: none;
+  text-align: center;
+}
+#table2{
+  display: none;
+}
+th,
+td {
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  font-weight: lighter;
+}
+#id2, #id4{
+  color: green;
+  font-size: x-large;
+}
+#id3{
+  color: red;
+  font-size: x-large;
+}
+
+
+
+/* [
+   
+      {"User_Name": "Vishal", "Email_Id": "vishal@gmail.com", "Experience":"5", "Number":"7896541230"},
+      {"User_Name": "Amit", "Email_Id": "amit@gmail.com", "Experience":"6", "Number":"96541230"},
+      {"User_Name": "Niraj", "Email_Id": "niraj@gmail.com", "Experience":"4", "Number":"7796541230"},
+      {"User_Name": "Naresh", "Email_Id": "naresh@gmail.com", "Experience":"3", "Number":"9896541230"},
+      {"User_Name": "Prashant", "Email_Id": "Prashant@gmail.com", "Experience":"4", "Number":"7896541230"},
+      {"User_Name": "Ravi", "Email_Id": "ravi@gmail.com", "Experience":"5", "Number":"7596541230"}
+
+
+
+] */
